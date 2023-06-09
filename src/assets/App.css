@@ -1,0 +1,20 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  background: rgb(108, 102, 215);
+  background: linear-gradient(
+    90deg,
+    rgba(108, 102, 215, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
